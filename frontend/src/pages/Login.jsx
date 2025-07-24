@@ -8,7 +8,7 @@ import { authDataContext } from '../context/AuthContext';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../utils/firebase';
 import axios from 'axios';
-import { userDataContext } from '../context/userContext';
+import { userDataContext } from '../context/UserContext';
 import { toast } from 'react-toastify';
 function Login() {
  let [show, setShow] = useState(false)
