@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
 import Background from '../component/Background';
-import Hero from '../component/hero';
+import Hero from '../component/Hero';
 import { useEffect } from 'react';
-import Product from './product';
+import Product from './Product';
 import OurPolicy from '../component/OurPolicy';
 import NewLetterBox from '../component/NewLetterBox';
 import Footer from '../component/Footer';
