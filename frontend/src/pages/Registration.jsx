@@ -9,7 +9,7 @@ import axios from 'axios'
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../utils/firebase';
 import { getCurrentUser } from '../../../backend/controller/userController';
-import { userDataContext } from '../context/userContext';
+import { userDataContext } from '../context/UserContext';
 
 function Registration() {
   let [show, setShow] = useState(false)
